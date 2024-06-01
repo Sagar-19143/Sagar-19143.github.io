@@ -16,12 +16,12 @@
           {% if link.title == 'Teaching' %}
               <li class="masthead__menu-item dropdown">
                 <a href="javascript:void(0)" class="dropbtn">{{ link.title }}</a>
-<!--                 <div class="dropdown-content"> -->
+                <div class="dropdown-content">
 <!--                   {% for child in link.children %} -->
                     <a class="dropdown-content" href="#">jjkk1</a>
                   <a  class="dropdown-content" href="#">jjkk2</a>
 <!--                   {% endfor %} -->
-<!--                 </div> -->
+                </div>
               </li>
             {% else %}
               {% assign domain = link.url contains 'http' ? '' : base_path %}
