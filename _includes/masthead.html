@@ -12,7 +12,7 @@
             {% if link.title == 'Teaching' %}
               <li class="masthead__menu-item dropdown">
                 <a href="javascript:void(0)" class="dropbtn">{{ link.title }}</a>
-                <div class="dropdown-content">
+                <div class="dropdown-content" style="display: none; position: absolute; background-color: #f1f1f1; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1;">
                   {% for child in link.children %}
                     <a href="{{ child.url }}">{{ child.title }}</a>
                   {% endfor %}
