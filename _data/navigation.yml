@@ -13,9 +13,18 @@ main:
         url: /teaching/  
       - title: "Course 2"
         url: /teaching/  
+      - title: "Course 3"
+        url: /teaching/  
+      - title: "Course 4"
+        url: /teaching/  
     
   - title: "Portfolio"
     url: /portfolio/
+    children:
+      - title: "Portfolio 1"
+        url: /portfolio/ 
+      - title: "Portfolio 2"
+        url: /portfolio/ 
         
   - title: "Blog Posts"
     url: /year-archive/
